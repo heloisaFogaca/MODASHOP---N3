@@ -59,7 +59,7 @@ O ModaShop centraliza catálogo, estoque por variação, carrinho, pedidos e pag
 
 | ID | Categoria | Descrição |
 |----|-----------|-----------|
-| RNF01 | Padrão REST | A API deve seguir o padrão REST: recursos em substantivos no plural (`/produtos`), verbos HTTP corretos (GET, POST, PUT, DELETE) e códigos de status adequados (200, 201, 204, 400, 401, 403, 404, 409). |
+| RNF01 | Padrão REST | A API deve seguir o padrão REST: recursos em substantivos no plural (`/products`), verbos HTTP corretos (GET, POST, PUT, DELETE) e códigos de status adequados (200, 201, 204, 400, 401, 403, 404, 409). |
 | RNF02 | Formato de dados | Requisições e respostas devem usar JSON codificado em UTF-8. |
 | RNF03 | Segurança – senhas | As senhas devem ser armazenadas com hash (BCrypt); nunca em texto puro nem retornadas pela API. |
 | RNF04 | Segurança – autenticação | O acesso a recursos protegidos deve exigir autenticação por token (JWT), com autorização por perfil. |
