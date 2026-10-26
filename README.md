@@ -6,10 +6,13 @@ API REST de uma loja virtual de roupas, desenvolvida em **Java 17** e **Spring B
 
 ## Equipe
 
-| Integrante | Função |
-|------------|--------|
-| _(nome)_ | Líder |
-| _(nome)_ | |
+- Heloísa Fogaça do Nascimento
+- Gustavo Gorges Koch
+- Ana Clara Tomaselli Borchartd
+- Kaique Fernandes Lima Homem
+- Miguel Carlos Bertoldi
+
+**Professor:** Leonardo Vitazik Neto
 
 ## Documentação
 

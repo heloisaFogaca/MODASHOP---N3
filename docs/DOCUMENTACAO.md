@@ -1,6 +1,14 @@
 # Documentação – Etapa 1: E-commerce de Roupas
 
-**Equipe:** _(preencher: nomes dos integrantes, líder indicado)_
+**Professor:** Leonardo Vitazik Neto
+
+**Equipe:**
+- Heloísa Fogaça do Nascimento
+- Gustavo Gorges Koch
+- Ana Clara Tomaselli Borchartd
+- Kaique Fernandes Lima Homem
+- Miguel Carlos Bertoldi
+
 **Link da aplicação / repositório:** _(preencher)_
 
 ---
