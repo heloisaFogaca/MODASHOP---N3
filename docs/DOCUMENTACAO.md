@@ -70,7 +70,6 @@ O ModaShop centraliza catálogo, estoque por variação, carrinho, pedidos e pag
 | RNF09 | Desempenho | Consultas de listagem devem usar paginação; 95% das requisições devem responder em até 1 segundo sob carga normal. |
 | RNF10 | Transações | Operações que alteram pedido e estoque devem ser transacionais (`@Transactional`) para evitar inconsistências. |
 | RNF11 | Manutenibilidade | O código deve seguir arquitetura em camadas (controller, service, repository, model) e Java 17 + Spring Boot 3. |
-| RNF12 | Disponibilidade | O sistema deve ter meta de disponibilidade de 99% em horário comercial. |
 
 ---
 
@@ -224,7 +223,7 @@ O projeto possui **9 entidades** (`@Entity`) no pacote `com.modashop.ecommerce.e
 | Product | `products` | `@ManyToMany` Category; `@OneToMany` ProductVariant, Review | ProductRepository |
 | ProductVariant | `product_variants` | `@ManyToOne` Product | ProductVariantRepository |
 | Order | `orders` | `@ManyToOne` User, Address; `@OneToMany` OrderItem; `@OneToOne(mappedBy)` Payment | OrderRepository |
-| OrderItem | `order_items` | `@ManyToOne` Order, ProductVariant | ItemOrderRepository |
+| OrderItem | `order_items` | `@ManyToOne` Order, ProductVariant | OrderItemRepository |
 | Payment | `payments` | `@OneToOne` Order | PaymentRepository |
 | Review | `reviews` | `@ManyToOne` User, Product | ReviewRepository |
 
